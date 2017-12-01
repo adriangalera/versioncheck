@@ -1,4 +1,4 @@
-#!/usr/bin/env python  
+#!/usr/bin/env python
 """Module to check the reported version in the projects vs the version reported in the
 last tagged commit. This program search in the current directory the defined version
 file and compare it with the version in the tag"""
