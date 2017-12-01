@@ -48,8 +48,9 @@ EXTRACT_VERSION_DICT = {
     'python': extract_from_python
 }
 
-if __name__ == "__main__":
 
+def main():
+    """Main method"""
     parser = argparse.ArgumentParser(
         description='Check the defined version on the project '
                     'depending on the project type.')
@@ -85,3 +86,7 @@ if __name__ == "__main__":
         exit(0)
     else:
         exit(VERSION_MISMATCH)
+
+
+if __name__ == "__main__":
+    main()
